@@ -1,0 +1,10 @@
+source :rubygems
+
+gem "breakpoint"
+gem 'compass'
+gem 'slim'
+gem 'compass-normalize-plugin'
+gem 'susy'
+
+
+

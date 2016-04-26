@@ -1,0 +1,13 @@
+h2, h1 {
+  font-size: 50px;
+  color: black;
+}
+
+@media (min-width: 0) and (max-width: 1500px) {
+  h2, h1 {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10%;
+  }
+}
