@@ -3,10 +3,30 @@
 	background: url("../images/assets/bg_img.jpg") no-repeat #1b1f26;
 	text-align: center;
 	position: relative;
-	.row{
+	.row .images{
 		position: absolute;
 		bottom: 0;
 	}
+	nav {
+		background-color: #2a333c;
+		width: 100%;
+		min-height: 100px;
+		padding-top: 10px;
+		border: 5px solid white;
+		ul{
+			height: 100px;
+			li{
+				float: left;
+				margin: 10px 30px;
+				color: white;
+				list-style-type: none;
+				a{
+					text-decoration: none;
+					color: white;
+				}
+			}
+		}
+	}	
 	&-heading{
 		font-size: 44px;
 		color: #ffffff;

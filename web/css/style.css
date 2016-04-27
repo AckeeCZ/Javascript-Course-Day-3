@@ -4,9 +4,29 @@
   text-align: center;
   position: relative;
 }
-.Top .row {
+.Top .row .images {
   position: absolute;
   bottom: 0;
+}
+.Top nav {
+  background-color: #2a333c;
+  width: 100%;
+  min-height: 100px;
+  padding-top: 10px;
+  border: 5px solid white;
+}
+.Top nav ul {
+  height: 100px;
+}
+.Top nav ul li {
+  float: left;
+  margin: 10px 30px;
+  color: white;
+  list-style-type: none;
+}
+.Top nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 .Top-heading {
   font-size: 44px;
