@@ -8,6 +8,7 @@
  */
 
 function listProperties(obj) {
+	console.log(obj.__proto__);
 	return null;
 }
 
