@@ -3,11 +3,14 @@
 	background: url("../images/assets/bg_img.jpg") no-repeat #1b1f26;
 	text-align: center;
 	position: relative;
-	.row .images{
+	.row.images{
 		position: absolute;
 		bottom: 0;
 	}
 	nav {
+		z-index: 1;
+		position: fixed;
+		top: -150px;
 		background-color: #2a333c;
 		width: 100%;
 		min-height: 100px;

@@ -1,0 +1,8 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Barclays course - websockets",
+  "dependencies": {
+    "websocket": "^1.0.22"
+  }
+}

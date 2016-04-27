@@ -4,11 +4,14 @@
   text-align: center;
   position: relative;
 }
-.Top .row .images {
+.Top .row.images {
   position: absolute;
   bottom: 0;
 }
 .Top nav {
+  z-index: 1;
+  position: fixed;
+  top: -150px;
   background-color: #2a333c;
   width: 100%;
   min-height: 100px;
