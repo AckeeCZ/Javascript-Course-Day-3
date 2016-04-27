@@ -1,0 +1,28 @@
+MUST HAVE:
+	https://developer.mozilla.org
+ECMAScript standards:
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources
+
+Other useful links:
+==================
+Reference with fast search and offline support:
+	http://devdocs.io/
+Up-to-date browser support tables:
+	 http://caniuse.com/
+Browser statistics:
+	http://www.w3schools.com/browsers/browsers_stats.asp
+Google JavaScript Style Guide:
+	https://google.github.io/styleguide/javascriptguide.xml
+
+Gotcha's:
+=========
+WTFJS:
+	http://wtfjs.com/
+A Collection of JavaScript Gotchas:
+	 http://www.codeproject.com/Articles/182416/A-Collection-of-JavaScript-Gotchas
+
+JavaScript Garden: documentation about the most quirky parts of JS
+	http://bonsaiden.github.io/JavaScript-Garden/
+
+Common JavaScript Errors: The List
+	http://www.javascriptgotchas.com/gotchas/common-javascript-errors-and-mistakes.html

@@ -1,0 +1,25 @@
+.Top{
+	min-height: 564px;
+	background: url("../images/assets/bg_img.jpg") no-repeat #1b1f26;
+	text-align: center;
+	position: relative;
+	.row{
+		position: absolute;
+		bottom: 0;
+	}
+	&-heading{
+		font-size: 44px;
+		color: #ffffff;
+		font-weight: bold;
+		display: inline-block;
+		text-align: left;
+		margin-top: 10%;
+	}
+	&-imageContainer{
+		display: inline-block;
+		img{
+			vertical-align: bottom;
+		}
+	}
+	
+}

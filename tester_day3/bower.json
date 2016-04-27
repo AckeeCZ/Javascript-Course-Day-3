@@ -1,0 +1,20 @@
+{
+  "name": "course",
+  "version": "0.0.0",
+  "authors": [
+    "Šimon Lomič <simon.lomic@ackee.cz>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.3",
+    "bootstrap": "~3.3.6",
+    "clipboard": "~1.5.10"
+  }
+}

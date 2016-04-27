@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="./style.css"></link>
+</head><body>
+<nav class="nav-bar course-header">
+  <div class="container">
+	<div class="navbar-header"><a class="navbar-brand" href="index.html"><strong>Testing</strong>Thingy</a></div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+	  		<li><a href="http://ackee.cz" target="_blank"><img src="assets/ackeeCol.png" width="80%" alt="Ackee.cz" /></a></li>
+  		</ul>
+  	</div>
+  </div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<p class="err_load_msg text-danger">Error during loading, please call the lecturer</p>
+			<ul class="nav nav-pills nav-stacked course-list"></ul>
+		</div>
+		<div class="col-md-10 course-content">
+			<ul class="nav nav-tabs course-task"></ul>
+			<div class="cnt">
+				<div class="getStarted">
+					<h3>Get started:</h3>
+					<ol>
+						<li><p>open your console (in Google Chrome):</p> <div class="well"><kbd>ctrl + shift + j</kbd> or <kbd>Menu > Tools > Developer Tools</kbd> and open tab <kbd>Console</kbd></div></li>
+						<li>open current folder with text editor / IDE</li>
+						<li>try to solve assignments in <code>assignments</code> folder</li>
+						<li>test your code by choosing assignment in the menu</li>
+					</ol>
+				</div>
+				<ul class="task-tests nav nav-list"></ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./bower_components/clipboard/dist/clipboard.js"></script>
+<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./Core/Course.js"></script>
+</body></html>

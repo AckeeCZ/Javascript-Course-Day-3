@@ -1,0 +1,26 @@
+.Top {
+  min-height: 564px;
+  background: url("../images/assets/bg_img.jpg") no-repeat #1b1f26;
+  text-align: center;
+  position: relative;
+}
+.Top .row {
+  position: absolute;
+  bottom: 0;
+}
+.Top-heading {
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: left;
+  margin-top: 10%;
+}
+.Top-imageContainer {
+  display: inline-block;
+}
+.Top-imageContainer img {
+  vertical-align: bottom;
+}
+
+/*# sourceMappingURL=style.css.map */

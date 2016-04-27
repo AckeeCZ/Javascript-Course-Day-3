@@ -1,0 +1,115 @@
+body {
+	text-align: center;
+	background: #FFFFFF;
+	font-size: 15pt;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif; 
+}
+p.msg {
+	color: #7F7F82;
+	font-style: italic;
+}
+a {
+	color: #3B4551;
+}
+.course-header {
+	background: #f7f7f7;
+	height: 80px;
+	margin-bottom: 1em;
+	color: #3B4551;
+	padding: 15px;
+}
+.course-header .navbar-brand {
+	color:#3B4551;
+	font-size: 20pt;
+	margin:0;
+}
+.course-list {
+	margin-bottom: 1em;
+}
+.course-list li {
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+
+.course-content .refr-task { 
+	float:right;
+}
+.course-content .courseNav { 
+	display: none;
+}
+.course-content .cnt {
+	text-align: left;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	padding: 1em;
+}
+
+.course-content .cnt-tests {
+	border-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.task-tests li.bonus {
+	background-color: #FEFAE1;
+	border: 2px solid white;
+}
+
+.course-content .well {
+	text-align: center;
+}
+.course-content .table {
+	margin-bottom: 0;
+}
+.course-content .table td {
+	width: 33%;
+	font-size: 11pt;
+	line-height: 25pt;
+}
+.course-content .table td pre.in {
+    max-width: 400px;
+    overflow: auto;
+}
+
+.course-content .table td.btnTd, .course-content .table td.control {
+	width: 5%;
+	text-align: center;
+}
+.course-content .table td.btnTd{
+	width: 25%;
+}
+	.course-content .table td .label {
+		font-size: 12pt;
+		display: inline-block;
+	}
+	.course-content .table td code {
+		background: white;
+	    padding: 4px 6px;
+	    border-radius: 2px;
+	}
+	.course-content .table td kbd {
+		font-size:12pt;
+	}
+.course-content .table th {
+	color: #1E2C2E;
+	font-weight: normal;
+	border-top: 0;
+	width: 33%;
+}
+
+.copyToClipboardAlert {
+    position: absolute;
+    background: black;
+    z-index: 999;
+    opacity: 0.8;
+    color: white;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+span.timeLabel {
+    color: #444;
+    font-size: 9pt;
+    display: block;
+    margin-top: -10px;
+}
